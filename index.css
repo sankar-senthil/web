@@ -1,0 +1,42 @@
+.contentDiv {
+    position: relative;
+}
+
+@keyframes bouncing {
+    0% {top: 0;}
+    50% {top: 15px;}
+    100% {top: 0;}
+}
+
+.arrow {
+    animation: bouncing 1s infinite ease-in-out;
+    bottom: 0;
+    display: inline-block;
+    height: 40px;
+    left: ;
+    /* margin-left: -25px; */
+    position: relative;
+    width: 40px;
+}
+blink {
+  animation: blink 1s steps(1, end) infinite;
+  color:#ff62bc;
+  font-weight: bold;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
